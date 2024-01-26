@@ -185,7 +185,7 @@ let lista3 = [];
 function sumaListas(lista1, lista2) {
     let cantNumeros = lista1.length;
     for (let i = 0; i < cantNumeros; i++) {
-        lista3[i] = lista1[i] + lista2[i];
+        lista3[i] = lista1[i] + lista2[i]; 
         console.log(`Suma posición ${i}: ${lista3[i]}`);
     }
     return console.log('fin.');
